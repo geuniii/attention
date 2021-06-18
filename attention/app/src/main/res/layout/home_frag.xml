@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/test_btn"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custombutton"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="임시버튼1"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <Button
+            android:id="@+id/test_btn2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custombutton"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="임시버튼2"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="100dp"
+
+            />
+
+        <Button
+        android:id="@+id/test_btn3"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:background="@drawable/custombutton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="임시버튼3"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="200dp"
+
+        />
+        <Button
+            android:id="@+id/test_btn4"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custombutton"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="임시버튼4"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="300dp"
+
+            />
+
+
+    </RelativeLayout>
+
+    -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/today_back"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#BAD145">
+
+            <TextView
+                android:id="@+id/today_text"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_horizontal"
+                android:text="TODAY'S STUDY"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/todayStudy_text"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/today_back"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="28sp" />
+
+
+    <LinearLayout
+        android:id="@+id/child_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="#bad145"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:id="@+id/subButton1"
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:text="DAY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/subButton2"
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:text="WEEK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/subButton3"
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:text="GROUP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/subButton4"
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:text="SUBJECT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+            <Button
+                android:id="@+id/analyze_btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/child_fragment"
+                android:background="@drawable/highbutton"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

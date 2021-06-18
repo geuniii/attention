@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/check1">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/back"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#BAD145"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="60dp">
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="500dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/analyze"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"/>
+
+
+
+            <TextView
+            android:id="@+id/attention_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="집중력"
+            android:textColor="#BAD145"
+            android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/imageView1"
+            android:textSize="14dp" />
+            <TextView
+                android:id="@+id/attention_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="당신의 집중력은 이용자 중 "
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/attention_title1"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/attention_percent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#BAD145"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/attention_title1"
+                android:layout_toRightOf="@+id/attention_text1"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/attention2_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="입니다."
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/attention_title1"
+                android:layout_toRightOf="@+id/attention_percent1"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/attention_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/attention_text1"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/attention_percent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#BAD145"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/attention_text2"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/attention2_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/attention_text2"
+                android:layout_toRightOf="@+id/attention_percent2"
+                android:layout_marginTop="10dp"
+                android:text="에 속합니다."
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/analyze"
+                android:layout_below="@id/attention2_text2"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/attention_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공부량"
+                android:textColor="#BAD145"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/imageView2"
+                android:layout_below="@+id/attention2_text2"
+                android:textSize="14dp"
+                />
+            <TextView
+                android:id="@+id/attention_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/attention_title2"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/attention_percent3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#BAD145"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/attention_text3"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/analyze"
+                android:layout_below="@id/attention_percent3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"/>
+
+
+            <TextView
+                android:id="@+id/attention_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공부 장소"
+                android:textColor="#BAD145"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imageView3"
+                android:layout_below="@+id/attention_percent3"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/textView6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="집중 효율 높은 장소: "
+                android:layout_below="@+id/attention_title3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="55dp"/>
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_below="@+id/attention_title3"
+                android:layout_toRightOf="@id/textView6_1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#BAD145"
+                android:textSize="18dp"
+                />
+
+
+            <com.anychart.AnyChartView
+                android:id="@+id/any_chart_view"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/textView6"
+                android:layout_marginBottom="100dp"
+                android:layout_centerHorizontal="true"/>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

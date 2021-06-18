@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/gif"
+        android:layout_width="232dp"
+        android:layout_height="261dp"
+        app:srcCompat="@drawable/attention"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/attentionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/gif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="시계를 5초 이상 보세요"
+        android:textColor="#bad145"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/attentionText"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton"
+        android:text="종료하기"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

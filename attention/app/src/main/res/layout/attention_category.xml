@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:id="@+id/attention_text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignTop="@+id/textView"
+        android:gravity="center_horizontal"
+        android:text="공부시간상황"
+        android:textColor="#BAD145"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/percent_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/attention_text"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="18sp" />
+
+    <!--
+
+    <TextView
+        android:id="@+id/percent_text2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/percent_text1"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/percent_text3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/percent_text2"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/percent_text4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/percent_text3"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/percent_text5"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/percent_text4"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="28sp" />
+
+        -->
+
+</RelativeLayout>

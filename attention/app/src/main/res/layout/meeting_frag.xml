@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/new_btn"
+        android:layout_width="310dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custombutton"
+        android:text="스터디 개설하기"
+        android:textColor="#FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/new_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:gravity="center"
+        android:hint="스터디명을 입력하세요"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#BAD145"
+        android:textColorHint="#BAD145"
+        android:textColorLink="#BAD145"
+        android:textSize="14dp"
+        android:fontFamily="@font/namsan_b">
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/new_btn"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/search_edit"
+        android:layout_toRightOf="@+id/search_edit"
+        android:background="@mipmap/ic_search" />
+
+    <ListView
+        android:id="@+id/search_res"
+        android:layout_width="250dp"
+        android:layout_height="440dp"
+        android:layout_below="@+id/search_edit"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:id="@+id/child_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_edit"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

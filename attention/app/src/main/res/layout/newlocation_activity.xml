@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/loCategory_view"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:background="#BAD145"
+        android:gravity="center"
+        android:text="장소 종류"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/loCategory_sp"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_toEndOf="@+id/loCategory_view"
+        android:animationCache="true"
+        android:background="@drawable/edittext"
+        android:entries="@array/locategory"
+        android:outlineSpotShadowColor="#BAD145"
+        android:textColor="#BAD145" />
+
+    <TextView
+        android:id="@+id/loName_view"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/loCategory_view"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#BAD145"
+        android:gravity="center"
+        android:text="장소 명"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/loName_edit"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/loCategory_sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/loName_view"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="장소 명을 입력하세요"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#BAD145"
+        android:singleLine="false"
+        android:textColorHint="#BAD145"
+        android:textColorLink="#BAD145"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/loMake_btn"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/loName_edit"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custombutton"
+        android:text="추가하기"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

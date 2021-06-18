@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:id="@+id/attention_text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignTop="@+id/textView"
+        android:gravity="center_horizontal"
+        android:text="당신의 집중도 순위는"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/percent_text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/attention_text"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="28sp" />
+
+</RelativeLayout>

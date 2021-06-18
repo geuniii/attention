@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="category">
+    <item>어학</item>
+    <item>자격증 시험</item>
+    <item>공무원 시험</item>
+    <item>학교 시험</item>
+    <item>취업 준비</item>
+</string-array>
+    <string-array name="locategory">
+        <item>집</item>
+        <item>도서관</item>
+        <item>카페</item>
+        <item>독서실</item>
+        <item>스터디카페</item>
+    </string-array>
+</resources>

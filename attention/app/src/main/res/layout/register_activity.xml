@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    ///////////Textview///////////
+    <TextView
+        android:id="@+id/id_view"
+        android:layout_width="58dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:background="#BAD145"
+        android:text="ID"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/pw_view"
+        android:layout_width="58dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/id_view"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="PW"
+        android:textColor="#FFFFFF"
+        android:background="#BAD145"
+        android:textSize="14sp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/age_view"
+        android:layout_width="58dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/pw_view"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:background="#BAD145"
+        android:text="AGE"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:gravity="center"/>
+
+    ///////////EditText///////////
+
+    <EditText
+        android:id="@+id/id_edit"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/id_view"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="아이디를 입력하세요"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#BAD145"
+        android:singleLine="false"
+        android:textColorHint="#BAD145"
+        android:textColorLink="#BAD145"
+        android:textSize="12sp"
+
+        />
+
+    <EditText
+        android:id="@+id/pw_edit"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/id_edit"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/pw_view"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="패스워드를 입력하세요"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#BAD145"
+        android:singleLine="false"
+        android:textColorHint="#BAD145"
+        android:textColorLink="#BAD145"
+        android:textSize="12sp"/>
+
+    <EditText
+        android:id="@+id/age_edit"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/pw_edit"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/pw_view"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="나이를 입력하세요"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#BAD145"
+        android:singleLine="false"
+        android:textColorHint="#BAD145"
+        android:textColorLink="#BAD145"
+        android:textSize="12sp" />
+
+    ///////////Button///////////
+
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/age_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/circlebutton"
+        android:text="완료"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/back"
+        android:scaleType="fitCenter" />
+
+    ///////////Radio///////////
+
+    <RadioGroup
+        android:id="@+id/gender_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pw_edit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/age_edit"
+        android:layout_toRightOf="@+id/age_edit">
+
+        <RadioButton
+            android:id="@+id/woman_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여자"
+            android:textColor="#BAD145" />
+
+        <RadioButton
+            android:id="@+id/man_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남자"
+            android:textColor="#BAD145"/>
+    </RadioGroup>
+
+</RelativeLayout>
