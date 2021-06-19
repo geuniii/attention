@@ -12,26 +12,21 @@
 
 ## 개발 배경
 
+![spdlqj](https://user-images.githubusercontent.com/62981623/122647196-f6571d00-d15d-11eb-8a83-dee72a0e5279.jpg)
 - 언택트 시대에 접어들면서 자택 학습 플랫폼이 요구되고 있는 상황이다.
 - 대면 스터디 원을 모집하는 경우 발생할 수 있는 제약들을 극복 할 수 있어야 한다.
 - 자동화된 학습 관리 서비스로 자기 주도 학습의 능률을 높일 수 있어야 한다.
-
-
-
-![image-20210616014430942](C:\Users\geunii\AppData\Roaming\Typora\typora-user-images\image-20210616014430942.png)
-
-
 
 
 <br/><br/><br/>
 
 ## 개발환경
 
-**개발언어** : java, javaScript, Xml
+- **개발언어** : java, javaScript, Xml
 
-**개발도구**  : Android SDK, JDK, MySQL, Node.js
+- **개발도구**  : Android SDK, JDK, MySQL, Node.js
 
-**IDE**  : Android Studio, Visual Studio Code, MySQL Workbench
+- **IDE**  : Android Studio, Visual Studio Code, MySQL Workbench
 
 <br/><br/><br/>
 
