@@ -217,7 +217,7 @@
 
 <br/><br/>
 
-#### 4. 학습 리포트 서비스 제공
+### 4. 학습 리포트 서비스 제공
   
 ![report](https://user-images.githubusercontent.com/62981623/122640470-c2b6cb80-d13a-11eb-81c9-31df99420be2.jpg)
 
